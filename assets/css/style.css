@@ -1,0 +1,306 @@
+*{
+    margin:0;
+    padding:0;
+   box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type:none;
+}
+
+.navbar{
+   
+    padding: 10px 0;
+    width: 100%;
+    
+    background-color: rgb(133, 133, 250);;
+}
+.nav-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-inline: 10em;
+}
+.left-side{
+    flex: 0.1 1 150px; 
+    margin: 5px;
+}
+.right-side{
+   
+    margin: 5px;
+    color:#fff;
+    font-size: 13px;
+}
+.list-content ul{
+    display: flex;
+    justify-content: space-between;
+}
+.list-content a{
+    color:black;
+    font-size: 15px;  
+}
+.list-content li{
+    padding-inline: 1em;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    
+    color:#fff;
+    font-size: 13px;  
+}
+.shop-cart .shop-a{
+    width: 80px;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    /* padding: 1px; */
+    margin-inline: 10em;
+    justify-content: space-between;
+    /* padding-inline: 10px; */
+    padding-block: 20px;
+}
+    .shop-cart{
+    border: solid 1px rgb(133, 133, 250);
+    display: flex;
+
+}
+
+.shop-cart a{
+    color: rgb(133, 133, 250);
+ 
+}
+.rest-logo{
+    margin: 0px 24px;
+}
+.rest-logo img{
+    width:100px;
+}
+.shop-icon{
+    padding: 0.25em;
+    font-size: 40px;
+    color: #fff;
+    background-color: rgb(133, 133, 250); ;
+}
+.ddd{
+    
+    text-align: center;
+    padding-top: 15px;
+    background: #fcfcfc;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    margin-inline: 10em;
+}
+.arabic-food ,.hummos{
+    color:white;
+    background-color: black;
+    padding: 0.7em;
+    border: none;
+    }
+
+.grills,.soup{
+        padding: 0.7em;
+        color:  #555;
+        border: 1px solid #e5e5e5;
+        background-color: white;
+    }
+.grills:hover ,.soup:hover{
+        color:white;
+        background-color: black;
+    }
+.food ,.food-type{
+    margin: 1em;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+    margin-inline: 10em;
+    justify-content: space-between;
+    padding-block: 20px;
+}
+.pro,.sort,.page,.view-as{
+    margin: 0.3em;
+}
+select{
+    margin: 0 -2px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+option{
+    color: #a3a3a3;  
+}
+.pro-info{
+    color: #1eb5bc;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    background: transparent;
+}
+.hummos-item,.falafel,.cesar-salad,.fatoosh,.yonaniah-salad,.kabab,.fish,.grills-item,.Dhal-Soup,.fasolia-soup{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.line{
+    padding: 0.5em;
+    margin: 0.-2px;
+    border: 1px solid #e5e5e5;
+    color: #98512e;
+}
+.bar{
+    background: #f9f9f9;
+    color: #a3a3a3;
+    margin: 0.-2px;
+    padding: 0.5em;
+    border: 1px solid #e5e5e5;
+}
+.product-item{
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+    margin-inline: 10em;
+    justify-content: space-between;
+    padding-block: 20px;
+   
+}
+
+.product-item img{
+    width: 17em;
+    height: 14em;
+}
+.footer-top{
+    background: #3eb5b1;
+    padding: 70px 0 65px;
+    color: #fff;
+   
+}
+.footer-top-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-inline: 10em;
+
+}
+.email{
+    border: 0;
+    padding: 20px 15px;
+    color: #555;
+    width: 23em;
+    height: 3em;
+    margin-top: 2px;
+   
+}
+.envelop{
+    background-color: white;
+    color: #3eb5b1;
+    padding: 0.7em;
+    margin-left: -3px;
+    padding-bottom: 13px;
+}
+.info-footer{
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+}
+.info-footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+    margin-inline: 10em;
+    justify-content: space-between;
+    padding-block: 20px;
+   
+}
+.info-footer-content li{
+    color: black;
+    padding: 0.33em;
+}
+.about,.shop,.special,.follow-us{
+    margin: 0.3em;
+    
+}
+.about{
+    width: 5em;
+    height: 15em;
+}
+
+.shop{
+    width: 5em;
+    height: 15em;
+}
+.special{
+    width: 14em;
+    
+}
+.follow-us{
+    height: 15em;
+}
+.shop h3{
+    position: relative;
+    padding-block: 1em;
+}
+.about h3{
+    position: relative;
+    padding-block: 1em;
+}
+.special h3{
+    position: relative;
+    padding-block: 1em;
+}
+.follow-us h3{
+    position: relative;
+    padding-block: 1em;
+
+}
+.about h3::before ,.shop h3::before,.special h3::before,.follow-us h3::before{
+    position: absolute;
+    content: "";
+    background: #1eb5bc;
+    width: 52px;
+    height: 2px;
+    bottom: 56px;
+}
+.special-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 11em;
+}
+.special-img img{
+    width: 6.8em;
+    height: 5em;
+}
+.follow-us a{  
+      font-size: 2em;
+      color: #1eb5bc;
+}
+.footer-bottom-content{
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+    margin-inline: 10em;
+    justify-content: space-between;
+    padding-block: 20px;
+}
+.box-right img{
+    width: 45px;
+    height: 45px;
+}
+.box-right ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box-right li{
+    padding-inline:1em;
+}
+.box-left{
+    line-height:2em;
+}
